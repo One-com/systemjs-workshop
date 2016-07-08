@@ -1,0 +1,24 @@
+{
+  "name": "systemjs-workshop",
+  "version": "1.0.0",
+  "description": "One.com workshop with Guy Bedford",
+  "scripts": {
+    "start": "serve .",
+    "bundle": "node build.js"
+  },
+  "author": "Jesper Birkestrøm <jesper@birkestroem.dk>",
+  "license": "MIT",
+  "dependencies": {
+    "ace": "github:ajaxorg/ace",
+    "less": "2.7.1",
+    "showdown": "1.4.2",
+    "systemjs": "0.19.31",
+    "systemjs-builder": "0.15.23",
+    "systemjs-plugin-babel": "0.0.12",
+    "systemjs-plugin-css": "github:systemjs/plugin-css",
+    "systemjs-plugin-less": "github:systemjs/plugin-less"
+  },
+  "devDependencies": {
+    "serve": "1.4.0"
+  }
+}
